@@ -1,7 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -80,7 +78,29 @@ const useStyles = makeStyles(theme => ({
 	},
 }));
 
-const projects = [1, 2, 3];
+const projects = [
+	{
+		image: `${require('../../../assets/images/celestin-portilio.png')}`,
+		link: 'https://celestin-niyonsaba.netlify.app/',
+		title: 'My Portifolio',
+		description:
+			'Here is my portifolio, created in React 16, with Material UI, Hooks, functional component and connect Formspree.io platform for handling contacted form REST API',
+	},
+	{
+		image: `${require('../../../assets/images/stylos.png')}`,
+		link: 'https://stylosconsults.com/',
+		title: 'STYLOS Consults Website',
+		description:
+			'Stylos consults company website. created in PHP and MySQL, bootstrap 4, Html&css3 and Javascript',
+	},
+	{
+		image: `${require('../../../assets/images/authors-haven.png')}`,
+		link: 'https://ah-92explorers-frontend.herokuapp.com/login',
+		title: "Authors' Haven",
+		description:
+			'A Social platform for the creative at heart. Vision: Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.',
+	},
+];
 
 export default function Projects() {
 	const classes = useStyles();
@@ -106,32 +126,22 @@ export default function Projects() {
 							<Grid item key={card} xs={12} sm={6} md={4}>
 								<Card className={classes.card}>
 									<Link
-										href={`/view/${card.id}`}
+										href={card.link}
 										underline='none'
 										color='inherit'
+										target='_blank'
 									>
 										<CardMedia
 											className={classes.cardMedia}
-											image='https://source.unsplash.com/random'
-											title='Image title'
+											image={card.image}
+											title={card.title}
 										/>
 										<CardContent className={classes.cardContent}>
 											<Typography gutterBottom variant='h5' component='h2'>
-												Title project name
+												{card.title}
 											</Typography>
-											<Typography>
-												dakkjdkjks jksjksjksjksjk sjksjkds jkdsjksdjkdsjk
-												kjdjksjksjk kjsjksjk jkdsjkdf jka kjdkajk
-											</Typography>
+											<Typography>{card.description}</Typography>
 										</CardContent>
-										<CardActions>
-											<Button size='small' color='primary'>
-												View
-											</Button>
-											<Button size='small' color='primary'>
-												Edit
-											</Button>
-										</CardActions>
 									</Link>
 								</Card>
 							</Grid>

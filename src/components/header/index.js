@@ -53,7 +53,7 @@ const styles = theme => ({
 	},
 	verticalNavigation: {
 		flex: 1,
-		minWidth: 300,
+		minWidth: 200,
 		backgroundColor: theme.palette.primary[500],
 	},
 	hamburger: {

@@ -23,8 +23,8 @@ const useStyles = makeStyles(theme => ({
 	},
 	header4: {
 		color: '#878787',
-		fontSize: 13,
-		fontWeight: 400,
+		fontSize: 16,
+		fontWeight: 600,
 		lineHeight: 1.1,
 		textTransform: 'uppercase',
 		textAlign: 'center',
