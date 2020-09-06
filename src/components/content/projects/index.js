@@ -81,17 +81,24 @@ const useStyles = makeStyles(theme => ({
 const projects = [
 	{
 		image: `${require('../../../assets/images/celestin-portilio.png')}`,
-		link: 'https://celestin-niyonsaba.netlify.app/',
+		link: '#',
 		title: 'My Portifolio',
 		description:
-			'Here is my portifolio, created in React 16, with Material UI, Hooks, functional component and connect Formspree.io platform for handling contacted form REST API',
+			'Here is my portifolio, created in React 16, with Material UI, Hooks, functional component and Formspree.io platform for handling contacted form REST API',
+	},
+	{
+		image: `${require('../../../assets/images/relax-app.png')}`,
+		link: '#',
+		title: 'Application for level up',
+		description:
+			'I created this app for leveling up in React with redux, Firebase, and Material UI',
 	},
 	{
 		image: `${require('../../../assets/images/stylos.png')}`,
 		link: 'https://stylosconsults.com/',
 		title: 'STYLOS Consults Website',
 		description:
-			'Stylos consults company website. created in PHP and MySQL, bootstrap 4, Html&css3 and Javascript',
+			'Stylos consults company website. created in PHP and MySQL, bootstrap, Html&css3 and Javascript',
 	},
 	{
 		image: `${require('../../../assets/images/authors-haven.png')}`,

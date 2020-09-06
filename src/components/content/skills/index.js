@@ -30,24 +30,32 @@ const Skills = () => {
 			completed: 90,
 		},
 		{
-			name: 'AWS',
-			completed: 70,
-		},
-		{
-			name: 'ExpressJs',
+			name: 'React',
 			completed: 90,
 		},
 		{
-			name: 'Linux',
-			completed: 75,
+			name: 'Bootstrap/Material UI',
+			completed: 85,
+		},
+		{
+			name: 'React-Native',
+			completed: 85,
+		},
+		{
+			name: 'Redux',
+			completed: 90,
+		},
+		{
+			name: 'CI/CD',
+			completed: 80,
 		},
 		{
 			name: 'Node',
 			completed: 90,
 		},
 		{
-			name: 'Docker',
-			completed: 70,
+			name: 'ExpressJs',
+			completed: 90,
 		},
 		{
 			name: 'PostgreSQL',
@@ -58,45 +66,21 @@ const Skills = () => {
 			completed: 95,
 		},
 		{
-			name: 'React',
-			completed: 90,
-		},
-		{
 			name: 'Digital Ocean',
-			completed: 75,
-		},
-		{
-			name: 'React-Native',
-			completed: 85,
+			completed: 80,
 		},
 		{
 			name: 'MongoDB',
 			completed: 80,
 		},
 		{
-			name: 'Redux',
-			completed: 90,
-		},
-		{
 			name: 'Firebase',
 			completed: 70,
 		},
 		{
-			name: 'Material UI',
-			completed: 85,
-		},
-		{
-			name: 'Agile',
-			completed: 90,
-		},
-		{
-			name: 'Bootstrap',
-			completed: 80,
-		},
-		{
-			name: 'GraphQL, and Apollo',
+			name: 'AWS',
 			completed: 60,
-		},
+		}
 	];
 
 	const renderSkill = (skill, index) => {

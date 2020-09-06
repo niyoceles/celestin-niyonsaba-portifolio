@@ -54,14 +54,14 @@ const Experiences = () => {
 			company: 'STYLOS Consults',
 			title: 'Software engineer consultant',
 			description:
-				'Responsible for conversion of the client’s ideas from traditional to modern technology in terms of system performance, capacity management, scalability, and provide advice and consulting services',
+				'Responsible for analyze and understand detailed business requirements of the clients. Design and implement software web development solutions. reporting the progress of the project to the clients. Provide advice and recommendations to the clients.',
 		},
 		{
 			year: 'April 2019 - October 2019',
 			company: 'Andela',
 			title: 'Software Engineer',
 			description:
-				'Responsible for developing the component features, detailed class design, integration with other components and ensuring the code quality through Unit Tests, CI and Code reviews',
+				'Responsible for developing the component features, detailed class design, integration with other components and ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team',
 		},
 		{
 			year: 'April 2018 - March 2019',
@@ -75,7 +75,7 @@ const Experiences = () => {
 			company: 'AA UNI RWANDA Ltd',
 			title: 'IT support Engineer intern',
 			description:
-				'Responsible for mantaining EBM machine maintaince and clean up and provide support and training the clients about using EBM Software',
+				'EBM machines maintaince and clean up and provide support and provide training to the clients about using EBM Software',
 		},
 	];
 

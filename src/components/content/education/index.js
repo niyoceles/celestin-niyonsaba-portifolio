@@ -55,7 +55,7 @@ const Educations = () => {
 			year: '2014 - 2018',
 			college: 'University of Tourism, Technology and Business Studies',
 			description:
-				'Bachelor of Business Information Technology in Computer engineering',
+				'Bachelor\'s degree in Computer engineering',
 		},
 		{
 			year: '2010 - 2013',
