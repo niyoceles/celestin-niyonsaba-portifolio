@@ -85,7 +85,7 @@ export default function Profile() {
 									<Card className={classes.card}>
 										<CardMedia
 											className={classes.profileImage}
-											image={`${require('../../../assets/images/celestin-profile5.jpg')}`}
+											image={`${require('../../../assets/images/pic.png')}`}
 											title='Profile image'
 										/>
 									</Card>

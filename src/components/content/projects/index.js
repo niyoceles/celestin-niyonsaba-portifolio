@@ -80,33 +80,37 @@ const useStyles = makeStyles(theme => ({
 
 const projects = [
 	{
-		image: `${require('../../../assets/images/celestin-portilio.png')}`,
-		link: '#',
-		title: 'My Portifolio',
-		description:
-			'Here is my portifolio, created in React 16, with Material UI, Hooks, functional component and Formspree.io platform for handling contacted form REST API',
+		image: `${require('../../../assets/images/cot.png')}`,
+		link: 'https://cot.org.rw/',
+		title: 'COT Website',
+		description: 'Rwanda Chamber of Tourism website',
+	},
+	{
+		image: `${require('../../../assets/images/rsga.png')}`,
+		link: 'https://rsga.rcot.org.rw/',
+		title: 'RSGA website',
+		description: 'Rwanda Safari Guides Association (under development)',
+	},
+	{
+		image: `${require('../../../assets/images/rha.png')}`,
+		link: 'https://rha.rcot.org.rw/',
+		title: 'RHA website',
+		description: 'Rwanda Hospitality Associations website (under development)',
 	},
 	{
 		image: `${require('../../../assets/images/relax-app.png')}`,
-		link: '#',
-		title: 'Application for level up',
+		link: 'https://lovers-ca431.web.app/',
+		title: 'App for Level up',
 		description:
 			'I created this app for leveling up in React with redux, Firebase, and Material UI',
-	},
-	{
-		image: `${require('../../../assets/images/stylos.png')}`,
-		link: 'https://stylosconsults.com/',
-		title: 'STYLOS Consults Website',
-		description:
-			'Stylos consults company website. created in PHP and MySQL, bootstrap, Html&css3 and Javascript',
 	},
 	{
 		image: `${require('../../../assets/images/authors-haven.png')}`,
 		link: 'https://ah-92explorers-frontend.herokuapp.com/login',
 		title: "Authors' Haven",
-		description:
-			'A Social platform for the creative at heart. Vision: Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.',
-	},
+		description: 'A Social platform for the creative at heart.',
+		// Vision: Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.
+	}
 ];
 
 export default function Projects() {

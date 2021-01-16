@@ -54,14 +54,14 @@ const Experiences = () => {
 			company: 'STYLOS Consults',
 			title: 'Software engineer consultant',
 			description:
-				'Responsible for analyze and understand detailed business requirements of the clients. Design and implement software web development solutions. reporting the progress of the project to the clients. Provide advice and recommendations to the clients.',
+				'Design and implement software web development solutions. reporting the progress of the projects to the clients. Provide advice and recommendations to the clients.',
 		},
 		{
 			year: 'April 2019 - October 2019',
 			company: 'Andela',
 			title: 'Software Engineer',
 			description:
-				'Responsible for developing the component features, detailed class design, integration with other components and ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team',
+				'Design and develop world-class features of software development by ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team',
 		},
 		{
 			year: 'April 2018 - March 2019',
