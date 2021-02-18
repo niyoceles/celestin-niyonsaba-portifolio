@@ -50,7 +50,7 @@ const Experiences = () => {
 	const classes = useStyles();
 	let experiences = [
 		{
-			year: 'April 2020 - present',
+			year: 'January 2020 - present',
 			company: 'STYLOS Consults',
 			title: 'Software engineer consultant',
 			description:
@@ -92,7 +92,6 @@ const Experiences = () => {
 		);
 	};
 
-	console.log('this experience', experiences);
 	return (
 		<Grid
 			container
