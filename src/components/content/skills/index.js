@@ -30,11 +30,16 @@ const Skills = () => {
 			completed: 90,
 		},
 		{
-			name: 'React',
+			name: 'React /Hooks /redux',
 			completed: 90,
 		},
 		{
 			name: 'Bootstrap/Material UI',
+			completed: 85,
+		},
+
+		{
+			name: 'Ionic',
 			completed: 85,
 		},
 		{
@@ -42,23 +47,15 @@ const Skills = () => {
 			completed: 85,
 		},
 		{
-			name: 'Redux',
-			completed: 90,
-		},
-		{
 			name: 'CI/CD',
 			completed: 80,
 		},
 		{
-			name: 'Node',
+			name: 'NodeJs/ExpressJs',
 			completed: 90,
 		},
 		{
-			name: 'ExpressJs',
-			completed: 90,
-		},
-		{
-			name: 'PostgreSQL',
+			name: 'PostgreSQL /Mysql ',
 			completed: 85,
 		},
 		{
@@ -67,10 +64,6 @@ const Skills = () => {
 		},
 		{
 			name: 'Digital Ocean',
-			completed: 80,
-		},
-		{
-			name: 'MongoDB',
 			completed: 80,
 		},
 		{
