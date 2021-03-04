@@ -26,7 +26,7 @@ const Skills = () => {
 	const classes = useStyles();
 	const skills = [
 		{
-			name: 'JavaScript',
+			name: 'JavaScript /TypeScript',
 			completed: 90,
 		},
 		{
