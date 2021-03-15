@@ -50,7 +50,14 @@ const Experiences = () => {
 	const classes = useStyles();
 	let experiences = [
 		{
-			year: 'January 2020 - present',
+			year: 'March 2021 - Present ',
+			company: 'AOS',
+			title: 'Mobile application developer',
+			description:
+				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality',
+		},
+		{
+			year: 'April 2020 - March 2021',
 			company: 'STYLOS Consults',
 			title: 'Software engineer consultant',
 			description:
@@ -69,13 +76,6 @@ const Experiences = () => {
 			title: 'IT support engineer',
 			description:
 				'Implement software solution based on school management and provide IT support services.',
-		},
-		{
-			year: 'January 2017 - March 2017',
-			company: 'AA UNI RWANDA Ltd',
-			title: 'IT support Engineer intern',
-			description:
-				'EBM machines maintaince and clean up and provide support and provide training to the clients about using EBM Software',
 		},
 	];
 

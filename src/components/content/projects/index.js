@@ -79,23 +79,23 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const projects = [
+	// {
+	// 	image: `${require('../../../assets/images/cot.png')}`,
+	// 	link: 'https://cot.org.rw/',
+	// 	title: 'COT Website',
+	// 	description: 'Rwanda Chamber of Tourism website',
+	// },
+	// {
+	// 	image: `${require('../../../assets/images/rsga.png')}`,
+	// 	link: 'https://rsga.rcot.org.rw/',
+	// 	title: 'RSGA website',
+	// 	description: 'Rwanda Safari Guides Association (under development)',
+	// },
 	{
-		image: `${require('../../../assets/images/cot.png')}`,
-		link: 'https://cot.org.rw/',
-		title: 'COT Website',
-		description: 'Rwanda Chamber of Tourism website',
-	},
-	{
-		image: `${require('../../../assets/images/rsga.png')}`,
-		link: 'https://rsga.rcot.org.rw/',
-		title: 'RSGA website',
-		description: 'Rwanda Safari Guides Association (under development)',
-	},
-	{
-		image: `${require('../../../assets/images/rha.png')}`,
-		link: 'https://rha.rcot.org.rw/',
-		title: 'RHA website',
-		description: 'Rwanda Hospitality Associations website (under development)',
+		image: `${require('../../../assets/images/quinca-paradi.png')}`,
+		link: 'https://quincaparadi.com/',
+		title: 'QUINCA PARADI',
+		description: 'E-commerce platform for building material',
 	},
 	{
 		image: `${require('../../../assets/images/relax-app.png')}`,
