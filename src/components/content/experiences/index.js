@@ -49,13 +49,13 @@ const useStyles = makeStyles(theme => ({
 const Experiences = () => {
 	const classes = useStyles();
 	let experiences = [
-		{
-			year: 'March 2021 - Present ',
-			company: 'AOS',
-			title: 'Mobile application developer',
-			description:
-				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality',
-		},
+// 		{
+// 			year: 'March 2021 - Present ',
+// 			company: 'AOS',
+// 			title: 'Mobile application developer',
+// 			description:
+// 				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality',
+// 		},
 		{
 			year: 'April 2020 - March 2021',
 			company: 'STYLOS Consults',
