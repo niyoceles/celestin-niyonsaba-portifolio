@@ -152,11 +152,11 @@ export class Header extends Component {
 								title='Education'
 								enableNavigationItemClass={navigationItemClass}
 							/>
-							<LinkTo
+							{/* <LinkTo
 								to='projects'
 								title='Projects'
 								enableNavigationItemClass={navigationItemClass}
-							/>
+							/> */}
 							<LinkTo
 								to='contact'
 								title='Contact'

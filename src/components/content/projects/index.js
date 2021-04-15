@@ -91,26 +91,26 @@ const projects = [
 	// 	title: 'RSGA website',
 	// 	description: 'Rwanda Safari Guides Association (under development)',
 	// },
-	{
-		image: `${require('../../../assets/images/quinca-paradi.png')}`,
-		link: 'https://quincaparadi.com/',
-		title: 'QUINCA PARADI',
-		description: 'E-commerce platform for building material',
-	},
-	{
-		image: `${require('../../../assets/images/relax-app.png')}`,
-		link: 'https://lovers-ca431.web.app/',
-		title: 'App for Level up',
-		description:
-			'I created this app for leveling up in React with redux, Firebase, and Material UI',
-	},
-	{
-		image: `${require('../../../assets/images/authors-haven.png')}`,
-		link: 'https://ah-92explorers-frontend.herokuapp.com/login',
-		title: "Authors' Haven",
-		description: 'A Social platform for the creative at heart.',
-		// Vision: Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.
-	}
+	// {
+	// 	image: `${require('../../../assets/images/quinca-paradi.png')}`,
+	// 	link: 'https://quincaparadi.com/',
+	// 	title: 'QUINCA PARADI',
+	// 	description: 'E-commerce platform for building material',
+	// },
+	// {
+	// 	image: `${require('../../../assets/images/relax-app.png')}`,
+	// 	link: 'https://lovers-ca431.web.app/',
+	// 	title: 'App for Level up',
+	// 	description:
+	// 		'I created this app for leveling up in React with redux, Firebase, and Material UI',
+	// },
+	// {
+	// 	image: `${require('../../../assets/images/authors-haven.png')}`,
+	// 	link: 'https://ah-92explorers-frontend.herokuapp.com/login',
+	// 	title: "Authors' Haven",
+	// 	description: 'A Social platform for the creative at heart.',
+	// 	// Vision: Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.
+	// }
 ];
 
 export default function Projects() {

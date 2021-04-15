@@ -82,16 +82,16 @@ export default function Profile() {
 						<Card className={classes.card} elevation={4}>
 							<Grid container spacing={4}>
 								<Grid item xs={12} sm={8} md={6}>
-									<Card className={classes.card}>
+									<Card className={classes.card} elevation={0}>
 										<CardMedia
 											className={classes.profileImage}
 											image={`${require('../../../assets/images/pic.png')}`}
-											title='Profile image'
+											title='Celestin Niyonsaba'
 										/>
 									</Card>
 								</Grid>
 								<Grid item xs={12} sm={8} md={6}>
-									<Card className={classes.card}>
+									<Card className={classes.card} elevation={0}>
 										<CardContent className={classes.cardContent}>
 											<div>
 												<Bubble content='Hi there,' />
@@ -101,9 +101,10 @@ export default function Profile() {
 												Celestin Niyonsaba
 											</h1>
 											<h2 className={classes.profilePosition}>
-												Full Stack Developer
+												Software Engineer
 											</h2>
 											<Divider />
+											<br />
 											<ContactInfo />
 										</CardContent>
 									</Card>
@@ -124,9 +125,9 @@ export default function Profile() {
 					color='textSecondary'
 					component='h6'
 				>
-					Full-stack software engineer with 3+ years’ experience, passionate
-					about solving problems. Specialized in web and mobile
-					application development.
+					Full-stack software engineer with passion about solving problems.{' '}
+					<br />
+					Specialized in web and mobile application development.
 				</Typography>
 			</main>
 		</React.Fragment>

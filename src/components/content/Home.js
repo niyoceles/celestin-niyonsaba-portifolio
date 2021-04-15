@@ -7,7 +7,7 @@ import Profile from './profile';
 import Skills from './skills';
 import WorkExperience from './experiences';
 import Education from './education';
-import Projects from './projects';
+// import Projects from './projects';
 
 const { Element } = Scroll;
 const useStyles = makeStyles(theme => ({
@@ -50,11 +50,11 @@ const Home = props => {
 					<Education />
 				</Element>
 			</Grid>
-			<Grid item xs={12}>
+			{/* <Grid item xs={12}>
 				<Element name='projects'>
 					<Projects />
 				</Element>
-			</Grid>
+			</Grid> */}
 		</Grid>
 	);
 };

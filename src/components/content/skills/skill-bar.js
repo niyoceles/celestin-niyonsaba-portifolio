@@ -5,8 +5,8 @@ import LinearProgress from '@material-ui/core/LinearProgress';
 
 const useStyles = makeStyles(theme => ({
 	label: {
-		fontSize: 14,
-		fontFamily: 'Open Sans',
+		fontSize: 15,
+		// fontFamily: 'Arial, Helvetica, sans-serif',
 	},
 	labelContainer: {
 		marginBottom: 3,

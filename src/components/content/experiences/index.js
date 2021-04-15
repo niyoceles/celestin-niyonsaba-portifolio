@@ -7,6 +7,10 @@ import Event from '../timeline/event';
 import SectionTitle from '../../common/SectionTitle';
 import { LEFT, RIGHT } from '../../../utils/Constants';
 import TimelineBar from '../../common/timeline-bar';
+import aos from '../../../assets/images/oas.jpeg';
+import andela from '../../../assets/images/andela.png';
+import stylos from '../../../assets/images/stylos.jpeg';
+import rtc from '../../../assets/images/rtc-logo.jpeg';
 
 const useStyles = makeStyles(theme => ({
 	container: {
@@ -49,33 +53,41 @@ const useStyles = makeStyles(theme => ({
 const Experiences = () => {
 	const classes = useStyles();
 	let experiences = [
-// 		{
-// 			year: 'March 2021 - Present ',
-// 			company: 'AOS',
-// 			title: 'Mobile application developer',
-// 			description:
-// 				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality',
-// 		},
 		{
+			logo: aos,
+			website: 'https://www.aos.rw/',
+			year: 'March 2021 - Present ',
+			company: 'AOS',
+			title: 'Mobile Application Developer',
+			description:
+				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality',
+		},
+		{
+			logo: stylos,
+			website: 'https://stylosconsults.com/',
 			year: 'April 2020 - March 2021',
 			company: 'STYLOS Consults',
-			title: 'Software engineer consultant',
+			title: 'Software Engineer Consultant',
 			description:
 				'Design and implement software web development solutions. reporting the progress of the projects to the clients. Provide advice and recommendations to the clients.',
 		},
 		{
+			logo: andela,
+			website: 'https://www.andela.com/',
 			year: 'April 2019 - October 2019',
 			company: 'Andela',
 			title: 'Software Engineer',
 			description:
-				'Design and develop world-class features of software development by ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team',
+				'Design and develop world-class features by ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team',
 		},
 		{
-			year: 'April 2018 - March 2019',
+			logo: rtc,
+			website: 'https://rtc-rub.org/',
+			year: 'September 2018 - March 2019',
 			company: 'Rubavu Technical College',
-			title: 'IT support engineer',
+			title: 'IT support',
 			description:
-				'Implement software solution based on school management and provide IT support services.',
+				'Implement software solutions based on school management and provide IT support services.',
 		},
 	];
 
@@ -83,6 +95,8 @@ const Experiences = () => {
 		return (
 			<EventContainer key={index} alignment={index % 2 === 0 ? LEFT : RIGHT}>
 				<Event
+					website={experience.website}
+					logo={experience.logo}
 					title={experience.title}
 					company={experience.company}
 					description={experience.description}
