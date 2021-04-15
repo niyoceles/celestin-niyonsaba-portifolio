@@ -34,21 +34,25 @@ const Home = props => {
 				<Element name='profile'>
 					<Profile />
 				</Element>
+				<br />
 			</Grid>
 			<Grid item xs={12}>
 				<Element name='experience'>
 					<WorkExperience />
 				</Element>
+				<br />
 			</Grid>
 			<Grid item xs={12}>
 				<Element name='skills'>
 					<Skills />
 				</Element>
+				<br />
 			</Grid>
 			<Grid item xs={12}>
 				<Element name='education'>
 					<Education />
 				</Element>
+				<br />
 			</Grid>
 			{/* <Grid item xs={12}>
 				<Element name='projects'>
