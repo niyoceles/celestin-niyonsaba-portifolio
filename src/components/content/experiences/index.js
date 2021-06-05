@@ -61,7 +61,7 @@ const Experiences = () => {
 			company: 'AOS',
 			title: 'Mobile Application Developer',
 			description:
-				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality',
+				'Develop Native and Hybrid mobile application for different form factors (phones & tablet). Interact with various business users, present prototypes and explain system functionality.',
 		},
 		{
 			logo: stylos,
@@ -79,7 +79,7 @@ const Experiences = () => {
 			company: 'Andela',
 			title: 'Software Engineer',
 			description:
-				'Design and develop world-class features by ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team',
+				'Design and develop world-class features by ensuring the code quality through Unit Tests, CI, debugging, Code reviews and provide/implement feedback with in a team.',
 		},
 		{
 			logo: rtc,

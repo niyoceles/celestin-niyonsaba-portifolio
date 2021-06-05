@@ -25,33 +25,33 @@ const SocialIcons = (color = 'white') => {
 			spacing={0}
 			className={classes.container}
 		>
-			<SocialIcon
+			{/* <SocialIcon
 				className={classes.button}
 				url='https://www.facebook.com/niyoceles'
 				fontSize='24px'
-                color={color}
-                target="_blank"
-			/>
+				color={color}
+				target='_blank'
+			/> */}
 			<SocialIcon
 				className={classes.button}
-				url='https://twitter.com/niyoceles'
+				url='https://github.com/niyoceles'
 				fontSize='24px'
-                color={color}
-                target="_blank"
+				color={color}
+				target='_blank'
 			/>
 			<SocialIcon
 				className={classes.button}
 				url='https://www.linkedin.com/in/celestin-niyonsaba/'
 				fontSize='24px'
-                color={color}
-                target="_blank"
+				color={color}
+				target='_blank'
 			/>
 			<SocialIcon
 				className={classes.button}
-				url='https://github.com/niyoceles'
+				url='https://twitter.com/niyoceles'
 				fontSize='24px'
-                color={color}
-                target="_blank"
+				color={color}
+				target='_blank'
 			/>
 		</Grid>
 	);
