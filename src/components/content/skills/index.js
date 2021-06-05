@@ -26,11 +26,11 @@ const Skills = () => {
 	const classes = useStyles();
 	const skills = [
 		{
-			name: 'JavaScript /TypeScript',
+			name: 'React /Hooks /redux',
 			completed: 90,
 		},
 		{
-			name: 'React /Hooks /redux',
+			name: 'NodeJs/ExpressJs',
 			completed: 90,
 		},
 		{
@@ -39,7 +39,7 @@ const Skills = () => {
 		},
 
 		{
-			name: 'Ionic',
+			name: 'Flutter & Dart',
 			completed: 85,
 		},
 		{
@@ -47,33 +47,25 @@ const Skills = () => {
 			completed: 85,
 		},
 		{
-			name: 'CI/CD',
+			name: 'Java/Spring Boot ',
 			completed: 80,
-		},
-		{
-			name: 'NodeJs/ExpressJs',
-			completed: 90,
 		},
 		{
 			name: 'PostgreSQL /Mysql ',
 			completed: 85,
 		},
 		{
-			name: 'Heroku',
+			name: 'Heroku / Digital Ocean',
 			completed: 95,
-		},
-		{
-			name: 'Digital Ocean',
-			completed: 80,
 		},
 		{
 			name: 'Firebase',
 			completed: 70,
 		},
 		{
-			name: 'AWS',
-			completed: 60,
-		}
+			name: 'Ionic',
+			completed: 70,
+		},
 	];
 
 	const renderSkill = (skill, index) => {
@@ -91,6 +83,9 @@ const Skills = () => {
 			justify='center'
 			spacing={0}
 		>
+			<br />
+			<br />
+			<br />
 			<SectionTitle title='Professional Skills' />
 			<Paper className={classes.root}>
 				<Grid item container direction='row' justify='space-between' xs={12}>

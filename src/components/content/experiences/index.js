@@ -20,6 +20,7 @@ const useStyles = makeStyles(theme => ({
 			alignItems: 'stretch',
 			justifyItems: 'space-evenly',
 		},
+		paddingBottom:20,
 	},
 	barClass: {
 		height: 585,

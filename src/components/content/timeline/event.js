@@ -48,7 +48,7 @@ const Event = props => {
 	const classes = useStyles();
 	const { logo, website, year, title, company, description } = props;
 	return (
-		<Grid container direction='column' spacing={0} align='center'>
+		<Grid container direction='column' spacing={0}>
 			<div className={classes.date}>{year}</div>
 			<br />
 			<Grid

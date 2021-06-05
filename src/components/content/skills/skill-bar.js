@@ -9,17 +9,18 @@ const useStyles = makeStyles(theme => ({
 		// fontFamily: 'Arial, Helvetica, sans-serif',
 	},
 	labelContainer: {
-		marginBottom: 3,
+		marginBottom: 10,
 		paddingLeft: 10,
 		paddingRight: 10,
-		marginTop: 10,
+		marginTop: 20,
 	},
 	button: {
 		marginTop: 15,
 		marginBottom: 15,
 	},
 	container: {
-		padding: 10,
+		padding: 50,
+		margin: 200,
 	},
 }));
 

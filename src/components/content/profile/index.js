@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -10,6 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import SocialIcons from '../../common/SocialIcons';
 import Bubble from '../../common/Bubble';
 import ContactInfo from '../../common/ContactInfo';
+import Avatar from '@material-ui/core/Avatar';
 
 const useStyles = makeStyles(theme => ({
 	topBodyContent: {
@@ -54,6 +54,7 @@ const useStyles = makeStyles(theme => ({
 		lineHeight: 1.1,
 		fontWeight: 700,
 		marginBottom: 5,
+		paddingBottom: 5,
 		[theme.breakpoints.down('md')]: {
 			fontSize: 20,
 		},
@@ -70,6 +71,12 @@ const useStyles = makeStyles(theme => ({
 		lineHeight: 1.1,
 		marginBottom: 0,
 	},
+	large: {
+		width: theme.spacing(30),
+		height: theme.spacing(30),
+		marginTop: 20,
+		marginLeft: 100,
+	},
 }));
 
 export default function Profile() {
@@ -79,14 +86,14 @@ export default function Profile() {
 			<div className={classes.topBodyContent}>
 				<Container maxWidth='md'>
 					<Grid item xs={12} sm={12} md={12} spacing={2} justify='center'>
-						<Card className={classes.card} elevation={4}>
+						<Card className={classes.card} elevation={1}>
 							<Grid container spacing={4}>
 								<Grid item xs={12} sm={8} md={6}>
 									<Card className={classes.card} elevation={0}>
-										<CardMedia
-											className={classes.profileImage}
-											image={`${require('../../../assets/images/pic.png')}`}
-											title='Celestin Niyonsaba'
+										<Avatar
+											alt='Celestin Niyonsaba'
+											src={`${require('../../../assets/images/pic.png')}`}
+											className={classes.large}
 										/>
 									</Card>
 								</Grid>
@@ -120,15 +127,18 @@ export default function Profile() {
 					Summary
 				</Typography>
 				<Typography
-					variant='h5'
-					align='center'
+					variant='h6'
+					// align='center'
 					color='textSecondary'
 					component='h6'
 				>
-					Full-stack software engineer with passion about solving problems.{' '}
-					<br />
-					Specialized in web and mobile application development.
+					Full-stack software engineer passionate about solving problems.
+					Specialized in web and mobile application development, and interested
+					in learning new stuff. I am in love with Flutter & Dart, spend much
+					time on Java/Spring Boot, and also have strong knowledge in
+					Nodejs/React.
 				</Typography>
+				<br />
 			</main>
 		</React.Fragment>
 	);
